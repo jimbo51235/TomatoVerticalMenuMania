@@ -10,7 +10,7 @@ Compatibility: iOS 13 or greater<br/>
 
 <h2>Description</h2>
 
-TomatoVerticalMenuMania lets you create a vertical, scrollable menu to the left of the screen.  Each button corresponds to a specific view controller.  You can hide and show the navigation item button with or without animation, which is up to you.
+TomatoVerticalMenuMania lets you create a vertical, scrollable menu to the left of the screen.  Each button corresponds to a specific view controller.  You can hide and show the navigation item button with or without animation, which is up to you.  The following is a list of features.
 
 <ol>
 <li>List a number of buttons, each of which corresponds to a specific view controller.</li>
@@ -20,11 +20,11 @@ TomatoVerticalMenuMania lets you create a vertical, scrollable menu to the left 
 <li>Customize the color of the selection marker.</li>
 </ol>
 
-![](Screenshots/Screenshot_002.jpg)
-
 <h2>Installation</h2>
 
 1. In order to use this framework, download the sample project.  You will find the folder titled **TomatoVerticalManiaFramework**.  Locate the Xcode file inside.  And put this Xcode file in your Xcode project.  Select your target and make sure you have **TomatoVerticalManiaFramework.framework** under General > Framworks, Libraries, and Embeded Content as shown below.
+
+![](Screenshots/Screenshot_002.jpg)
 
 2. Create a sub-class of **UIViewController**.  Name it BasicViewController, BaseViewController, RootViewController or whatever you want such that all child view controllers can be based on.  For now, let us call this base view controller **BasicViewController**.  Import **TomatoVerticalManiaFramework** to the view controller.
 
