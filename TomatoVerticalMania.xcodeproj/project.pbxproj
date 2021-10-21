@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70396F33271F9BB1003D2A4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70396F32271F9BB1003D2A4A /* AppDelegate.swift */; };
+		70396F35271F9BB1003D2A4A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70396F34271F9BB1003D2A4A /* SceneDelegate.swift */; };
+		70396F3C271F9BB3003D2A4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70396F3B271F9BB3003D2A4A /* Assets.xcassets */; };
+		70A6808F271FA33100774839 /* GiftsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A68089271FA33000774839 /* GiftsViewController.swift */; };
+		70A68090271FA33100774839 /* WeaponsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A6808A271FA33000774839 /* WeaponsViewController.swift */; };
+		70A68091271FA33100774839 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A6808B271FA33000774839 /* BaseViewController.swift */; };
+		70A68092271FA33100774839 /* ClockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A6808C271FA33000774839 /* ClockViewController.swift */; };
+		70A68093271FA33100774839 /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A6808D271FA33000774839 /* FoodViewController.swift */; };
+		70A68094271FA33100774839 /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A6808E271FA33100774839 /* PlayViewController.swift */; };
+		70A68098271FA34800774839 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70A68096271FA34800774839 /* Main.storyboard */; };
+		70A68099271FA34800774839 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70A68097271FA34800774839 /* LaunchScreen.storyboard */; };
+		70A680AC271FA93300774839 /* CookingImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 70A680A7271FA93300774839 /* CookingImage.png */; };
+		70A680AD271FA93300774839 /* ClockImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 70A680A8271FA93300774839 /* ClockImage.png */; };
+		70A680AE271FA93300774839 /* ChestImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 70A680A9271FA93300774839 /* ChestImage.png */; };
+		70A680AF271FA93300774839 /* GiftImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 70A680AA271FA93300774839 /* GiftImage.png */; };
+		70A680B0271FA93300774839 /* PlayImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 70A680AB271FA93300774839 /* PlayImage.png */; };
+		70A680BD271FC04500774839 /* SaveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A680BA271FC04500774839 /* SaveViewController.swift */; };
+		70A680BE271FC04500774839 /* SecurityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A680BB271FC04500774839 /* SecurityViewController.swift */; };
+		70A680BF271FC04500774839 /* TrashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A680BC271FC04500774839 /* TrashViewController.swift */; };
+		70A680C4271FC05700774839 /* SecurityImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 70A680C1271FC05700774839 /* SecurityImage.png */; };
+		70A680C5271FC05700774839 /* TrashImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 70A680C2271FC05700774839 /* TrashImage.png */; };
+		70A680C6271FC05700774839 /* SavingImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 70A680C3271FC05700774839 /* SavingImage.png */; };
+		70A680F727204D6400774839 /* TomatoVerticalManiaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70A680F527204D5900774839 /* TomatoVerticalManiaFramework.framework */; };
+		70A680F827204D6400774839 /* TomatoVerticalManiaFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 70A680F527204D5900774839 /* TomatoVerticalManiaFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70A680F427204D5900774839 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70A680F027204D5900774839 /* TomatoVerticalManiaFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 70A680DE27204C6700774839;
+			remoteInfo = TomatoVerticalManiaFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		70A680F927204D6400774839 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				70A680F827204D6400774839 /* TomatoVerticalManiaFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		70396F2F271F9BB1003D2A4A /* TomatoVerticalMania.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TomatoVerticalMania.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70396F32271F9BB1003D2A4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		70396F34271F9BB1003D2A4A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		70396F3B271F9BB3003D2A4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70396F40271F9BB3003D2A4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70A68089271FA33000774839 /* GiftsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GiftsViewController.swift; path = ViewController/GiftsViewController.swift; sourceTree = "<group>"; };
+		70A6808A271FA33000774839 /* WeaponsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WeaponsViewController.swift; path = ViewController/WeaponsViewController.swift; sourceTree = "<group>"; };
+		70A6808B271FA33000774839 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseViewController.swift; path = ViewController/BaseViewController.swift; sourceTree = "<group>"; };
+		70A6808C271FA33000774839 /* ClockViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ClockViewController.swift; path = ViewController/ClockViewController.swift; sourceTree = "<group>"; };
+		70A6808D271FA33000774839 /* FoodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FoodViewController.swift; path = ViewController/FoodViewController.swift; sourceTree = "<group>"; };
+		70A6808E271FA33100774839 /* PlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlayViewController.swift; path = ViewController/PlayViewController.swift; sourceTree = "<group>"; };
+		70A68096271FA34800774839 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Storyboard/Main.storyboard; sourceTree = "<group>"; };
+		70A68097271FA34800774839 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Storyboard/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		70A680A7271FA93300774839 /* CookingImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CookingImage.png; path = Graphics/CookingImage.png; sourceTree = "<group>"; };
+		70A680A8271FA93300774839 /* ClockImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ClockImage.png; path = Graphics/ClockImage.png; sourceTree = "<group>"; };
+		70A680A9271FA93300774839 /* ChestImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ChestImage.png; path = Graphics/ChestImage.png; sourceTree = "<group>"; };
+		70A680AA271FA93300774839 /* GiftImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GiftImage.png; path = Graphics/GiftImage.png; sourceTree = "<group>"; };
+		70A680AB271FA93300774839 /* PlayImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PlayImage.png; path = Graphics/PlayImage.png; sourceTree = "<group>"; };
+		70A680BA271FC04500774839 /* SaveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SaveViewController.swift; path = ViewController/SaveViewController.swift; sourceTree = "<group>"; };
+		70A680BB271FC04500774839 /* SecurityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecurityViewController.swift; path = ViewController/SecurityViewController.swift; sourceTree = "<group>"; };
+		70A680BC271FC04500774839 /* TrashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TrashViewController.swift; path = ViewController/TrashViewController.swift; sourceTree = "<group>"; };
+		70A680C1271FC05700774839 /* SecurityImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SecurityImage.png; path = Graphics/SecurityImage.png; sourceTree = "<group>"; };
+		70A680C2271FC05700774839 /* TrashImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TrashImage.png; path = Graphics/TrashImage.png; sourceTree = "<group>"; };
+		70A680C3271FC05700774839 /* SavingImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SavingImage.png; path = Graphics/SavingImage.png; sourceTree = "<group>"; };
+		70A680F027204D5900774839 /* TomatoVerticalManiaFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TomatoVerticalManiaFramework.xcodeproj; path = TomatoVerticalMania/TomatoVerticalManiaFramework/TomatoVerticalManiaFramework.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70396F2C271F9BB0003D2A4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70A680F727204D6400774839 /* TomatoVerticalManiaFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70396F26271F9BAF003D2A4A = {
+			isa = PBXGroup;
+			children = (
+				70A680F027204D5900774839 /* TomatoVerticalManiaFramework.xcodeproj */,
+				70396F31271F9BB1003D2A4A /* TomatoVerticalMania */,
+				70396F30271F9BB1003D2A4A /* Products */,
+				70A680F627204D6400774839 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		70396F30271F9BB1003D2A4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70396F2F271F9BB1003D2A4A /* TomatoVerticalMania.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70396F31271F9BB1003D2A4A /* TomatoVerticalMania */ = {
+			isa = PBXGroup;
+			children = (
+				70396F32271F9BB1003D2A4A /* AppDelegate.swift */,
+				70396F34271F9BB1003D2A4A /* SceneDelegate.swift */,
+				70A68081271FA21000774839 /* Graphics */,
+				70A68080271FA20A00774839 /* ViewController */,
+				70A68083271FA21100774839 /* Storyboard */,
+				70396F3B271F9BB3003D2A4A /* Assets.xcassets */,
+				70396F40271F9BB3003D2A4A /* Info.plist */,
+			);
+			path = TomatoVerticalMania;
+			sourceTree = "<group>";
+		};
+		70A68080271FA20A00774839 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				70A6808B271FA33000774839 /* BaseViewController.swift */,
+				70A6808E271FA33100774839 /* PlayViewController.swift */,
+				70A6808A271FA33000774839 /* WeaponsViewController.swift */,
+				70A6808C271FA33000774839 /* ClockViewController.swift */,
+				70A6808D271FA33000774839 /* FoodViewController.swift */,
+				70A68089271FA33000774839 /* GiftsViewController.swift */,
+				70A680BA271FC04500774839 /* SaveViewController.swift */,
+				70A680BC271FC04500774839 /* TrashViewController.swift */,
+				70A680BB271FC04500774839 /* SecurityViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		70A68081271FA21000774839 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				70A680AB271FA93300774839 /* PlayImage.png */,
+				70A680A9271FA93300774839 /* ChestImage.png */,
+				70A680A8271FA93300774839 /* ClockImage.png */,
+				70A680A7271FA93300774839 /* CookingImage.png */,
+				70A680AA271FA93300774839 /* GiftImage.png */,
+				70A680C3271FC05700774839 /* SavingImage.png */,
+				70A680C2271FC05700774839 /* TrashImage.png */,
+				70A680C1271FC05700774839 /* SecurityImage.png */,
+			);
+			name = Graphics;
+			sourceTree = "<group>";
+		};
+		70A68083271FA21100774839 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				70A68096271FA34800774839 /* Main.storyboard */,
+				70A68097271FA34800774839 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		70A680F127204D5900774839 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70A680F527204D5900774839 /* TomatoVerticalManiaFramework.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70A680F627204D6400774839 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70396F2E271F9BB0003D2A4A /* TomatoVerticalMania */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70396F43271F9BB3003D2A4A /* Build configuration list for PBXNativeTarget "TomatoVerticalMania" */;
+			buildPhases = (
+				70396F2B271F9BB0003D2A4A /* Sources */,
+				70396F2C271F9BB0003D2A4A /* Frameworks */,
+				70396F2D271F9BB0003D2A4A /* Resources */,
+				70A680F927204D6400774839 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TomatoVerticalMania;
+			productName = TomatoVerticalMania;
+			productReference = 70396F2F271F9BB1003D2A4A /* TomatoVerticalMania.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70396F27271F9BAF003D2A4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					70396F2E271F9BB0003D2A4A = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 70396F2A271F9BAF003D2A4A /* Build configuration list for PBXProject "TomatoVerticalMania" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70396F26271F9BAF003D2A4A;
+			productRefGroup = 70396F30271F9BB1003D2A4A /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 70A680F127204D5900774839 /* Products */;
+					ProjectRef = 70A680F027204D5900774839 /* TomatoVerticalManiaFramework.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				70396F2E271F9BB0003D2A4A /* TomatoVerticalMania */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		70A680F527204D5900774839 /* TomatoVerticalManiaFramework.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = TomatoVerticalManiaFramework.framework;
+			remoteRef = 70A680F427204D5900774839 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70396F2D271F9BB0003D2A4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70A680AC271FA93300774839 /* CookingImage.png in Resources */,
+				70A680B0271FA93300774839 /* PlayImage.png in Resources */,
+				70A680C6271FC05700774839 /* SavingImage.png in Resources */,
+				70A68099271FA34800774839 /* LaunchScreen.storyboard in Resources */,
+				70396F3C271F9BB3003D2A4A /* Assets.xcassets in Resources */,
+				70A68098271FA34800774839 /* Main.storyboard in Resources */,
+				70A680AD271FA93300774839 /* ClockImage.png in Resources */,
+				70A680C5271FC05700774839 /* TrashImage.png in Resources */,
+				70A680AF271FA93300774839 /* GiftImage.png in Resources */,
+				70A680C4271FC05700774839 /* SecurityImage.png in Resources */,
+				70A680AE271FA93300774839 /* ChestImage.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70396F2B271F9BB0003D2A4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70A68091271FA33100774839 /* BaseViewController.swift in Sources */,
+				70A680BF271FC04500774839 /* TrashViewController.swift in Sources */,
+				70A680BD271FC04500774839 /* SaveViewController.swift in Sources */,
+				70396F33271F9BB1003D2A4A /* AppDelegate.swift in Sources */,
+				70A68093271FA33100774839 /* FoodViewController.swift in Sources */,
+				70A680BE271FC04500774839 /* SecurityViewController.swift in Sources */,
+				70A68094271FA33100774839 /* PlayViewController.swift in Sources */,
+				70396F35271F9BB1003D2A4A /* SceneDelegate.swift in Sources */,
+				70A68090271FA33100774839 /* WeaponsViewController.swift in Sources */,
+				70A68092271FA33100774839 /* ClockViewController.swift in Sources */,
+				70A6808F271FA33100774839 /* GiftsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		70396F41271F9BB3003D2A4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		70396F42271F9BB3003D2A4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70396F44271F9BB3003D2A4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1000;
+				DEVELOPMENT_TEAM = 9XNEX783H5;
+				INFOPLIST_FILE = TomatoVerticalMania/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.mhvt.TomatoVerticalMania;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		70396F45271F9BB3003D2A4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1000;
+				DEVELOPMENT_TEAM = 9XNEX783H5;
+				INFOPLIST_FILE = TomatoVerticalMania/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.mhvt.TomatoVerticalMania;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70396F2A271F9BAF003D2A4A /* Build configuration list for PBXProject "TomatoVerticalMania" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70396F41271F9BB3003D2A4A /* Debug */,
+				70396F42271F9BB3003D2A4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70396F43271F9BB3003D2A4A /* Build configuration list for PBXNativeTarget "TomatoVerticalMania" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70396F44271F9BB3003D2A4A /* Debug */,
+				70396F45271F9BB3003D2A4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70396F27271F9BAF003D2A4A /* Project object */;
+}
