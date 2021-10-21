@@ -16,7 +16,7 @@ TomatoVerticalMenuMania lets you create a vertical, scrollable menu to the left 
 <li>List a number of buttons, each of which corresponds to a specific view controller.</li>
 <li>Use an image to characterize a corresponding view controller.</li>
 <li>Let the user scroll up and down on the menu to select a button.</li>
-<li>Show a pentagon or square marker to indicate which menu has currently been selected.</li>
+<li>Show a pentagon or square marker to indicate which sub-menu has currently been selected.</li>
 <li>Customize the color of the selection marker.</li>
 </ol>
 
@@ -30,7 +30,7 @@ TomatoVerticalMenuMania lets you create a vertical, scrollable menu to the left 
 
 3. In the base view controller, create a function to set up the menu.  Let us call this function **setup(index: Int)**.  Also create an **override** function named **menuTapped**.
 
-4. In the setup function, create an array of menu models with **TomatoVerticalMenuModel**.  This struct takes three properties: menuName (String), menuIndex (Int), imageName (String).  The **menuName** property is the name of a tappable view (UIView) that appears on the vertical menu.  And each of them corresponds to a specific view controller through the menuTapped function.  The index property determines the order of appearance.  It also tells the app which view controller it should access.  Moreover, the **imageName*** property is the name of the image used to characterize each menu.
+4. In the setup function, create an array of menu models with **TomatoVerticalMenuModel**.  This struct takes three properties: menuName (String), menuIndex (Int), imageName (String).  The **menuName** property is the name of a tappable view (UIView) that appears on the vertical menu.  And each of them corresponds to a specific view controller through the menuTapped function.  The index property determines the order of appearance.  It also tells the app which view controller it should access.  Moreover, the **imageName*** property is the name of the image used to characterize each sub-menu.
 
 5. Call **tomatoVerticalSetup(index: index)** in the setup(index: Int) function of the base view controller.
 
