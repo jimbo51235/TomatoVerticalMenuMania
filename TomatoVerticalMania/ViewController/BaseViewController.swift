@@ -9,6 +9,18 @@ import UIKit
 import TomatoVerticalManiaFramework
 
 class BaseViewController: TomatoVerticalManiaViewController {
+	required init?(coder aDecoder: NSCoder) {
+		super.init(coder: aDecoder)
+	}
+	
+	override init(nibName nibNameOrNil: String!, bundle nibBundleOrNil: Bundle!) {
+		super.init(nibName: nil, bundle: nil)
+	}
+	
+	convenience init() {
+		self.init(nibName: nil, bundle: nil)
+	}
+	
 	var menuHidden = false
 	let hideBackButton = true
 	let animationDur: TimeInterval = 0.5
