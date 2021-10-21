@@ -21,6 +21,7 @@ class WeaponsViewController: BaseViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		
+		UIView.setAnimationsEnabled(false)
 		setup(index: 1)
 	}
 	

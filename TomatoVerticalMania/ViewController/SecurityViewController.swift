@@ -21,6 +21,7 @@ class SecurityViewController: BaseViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		
+		UIView.setAnimationsEnabled(false)
 		setup(index: 7)
 	}
 	

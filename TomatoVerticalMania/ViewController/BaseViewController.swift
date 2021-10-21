@@ -22,7 +22,7 @@ class BaseViewController: TomatoVerticalManiaViewController {
 	}
 	
 	var menuHidden = false
-	let hideBackButton = true
+	let hideBackButton = false
 	let animationDur: TimeInterval = 0.5
 	let hasAutoLayout = true
 	let hasMenu = true

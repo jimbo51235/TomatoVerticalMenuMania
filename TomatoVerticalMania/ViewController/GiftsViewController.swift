@@ -21,6 +21,7 @@ class GiftsViewController: BaseViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		
+		UIView.setAnimationsEnabled(false)
 		setup(index: 4)
 	}
 	
