@@ -29,7 +29,7 @@ TomatoVerticalMenuMania lets you create a vertical, scrollable menu to the left 
 
 2. Create a sub-class of **UIViewController**.  Name it BasicViewController, BaseViewController, RootViewController or whatever you want such that all child view controllers can be based on.  For now, let us call this base view controller **BasicViewController**.  Import **TomatoVerticalManiaFramework** to the view controller.
 
-3. In the base view controller, create a function to set up the menu.  Let us call this function **setup(index: Int)**.  Also create an **override** function named **menuTapped**.
+3. In the base view controller, set the class to **TomatoVerticalManiaViewController**.  Create a function to set up the menu.  Let us call this function **setup(index: Int)**.  Also create an **override** function named **menuTapped**.
 
 4. In the setup function, create an array of menu models with **TomatoVerticalMenuModel**.  This struct takes three properties: menuName (String), menuIndex (Int), imageName (String).  The **menuName** property is the name of a tappable view (UIView) that appears on the vertical menu.  And each of them corresponds to a specific view controller through the menuTapped function.  The index property determines the order of appearance.  It also tells the app which view controller it should access.  Moreover, the **imageName*** property is the name of the image used to characterize each sub-menu.
 
